@@ -58,4 +58,4 @@ class CamVid(Dataset):
 
 if __name__ == '__main__':
     from semseg.utils.visualize import visualize_dataset_sample
-    visualize_dataset_sample(CamVid, '/home/sithu/datasets/CamVid')
+    visualize_dataset_sample(CamVid, '/home/zkim/outdoor_navigation/datasets/CamVid')

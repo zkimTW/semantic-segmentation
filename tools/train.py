@@ -19,7 +19,7 @@ from semseg.losses import get_loss
 from semseg.schedulers import get_scheduler
 from semseg.optimizers import get_optimizer
 from semseg.utils.utils import fix_seeds, setup_cudnn, cleanup_ddp, setup_ddp
-from val import evaluate
+from tools.val import evaluate
 
 
 def main(cfg, gpu, save_dir):

@@ -59,4 +59,4 @@ class CityScapes(Dataset):
 
 if __name__ == '__main__':
     from semseg.utils.visualize import visualize_dataset_sample
-    visualize_dataset_sample(CityScapes, '/home/sithu/datasets/CityScapes')
+    visualize_dataset_sample(CityScapes, '/home/zkim/outdoor_navigation/semantic-segmentation/data/CityScapes')
